@@ -221,7 +221,8 @@ public class SimpleApp extends JFrame {
         }
 
         @Override
-        public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+        public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, 
+            boolean hasFocus, int row, int column) {
             setText(value != null ? value.toString() : "");
 
             // Set background and foreground colors
